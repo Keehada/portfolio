@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -16,3 +18,119 @@ code {
   color: grey !important;
   font-weight: 500;
 }
+
+.home-image{
+  width: 100%;
+  height: 937px;
+  opacity: .9;
+}
+
+/* h1{
+  position: absolute;
+  top: 450px;
+  left: 41%;
+  color: white;
+  font-family: Poppins;
+} */
+
+.my_pic {
+  position: absolute;
+  top: 240px;
+  left: 220px;
+  max-width: 20%;
+  height: auto;
+}
+
+.jumbo {
+  background: url('./assets/singularity.png');
+}
+
+.overlay{
+  background-color: #000;
+}
+
+#jumbo-text{
+  color: white;
+}
+
+#my-pic{
+  display: block;
+  max-width: 25%;
+  margin-left: 2px;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+#about-me{
+  text-align: center;
+  margin-top: 0px;
+}
+
+.wrapper
+{
+	padding-bottom: 20px;
+}
+
+.divider
+{
+	position: relative;
+	margin-top: 15px;
+	height: 1px;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+}
+
+#sam{
+  color: orange;
+}
+
+#blue-name{
+  color: navy;
+}
+
+#about-text{
+  display: block;
+}
+
+#react-logo{
+  max-width: 13%;
+  max-height: 10%;
+}
+
+#python-logo{
+  max-width: 8%;
+  margin-left: 3%;
+  max-height: 10%;
+}
+
+#java-logo{
+  max-width: 6%;
+  margin-left: 3%;
+}
+
+#html-logo{
+  max-width: 10%;
+  margin-left: 3%;
+}
+
+#css-logo{
+  max-width: 7%;
+  margin-left: 3%;
+}
+
+#js-logo{
+  max-width: 10%;
+  margin-left: 3%;
+}
+
+
