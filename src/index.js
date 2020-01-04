@@ -7,6 +7,7 @@ import './index.css';
 import HomePage from './Components/HomePage.js';
 import Projects from './Components/Projects.js';
 import Jumbotron from './Components/Jumbotron.js';
+import "shards-ui/dist/css/shards.min.css"
 
 function App() {
     return (

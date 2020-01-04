@@ -7,7 +7,6 @@ function Header() {
     return(
         <Navbar fixed='top' collapseOnSelect expand='lg' variant='dark' bg='dark'>
         <Navbar.Brand href='/'>FQ</Navbar.Brand>
-        <Navbar.Toggle aria-controls='basic-navbar-nav'/>
             <Nav className='ml-auto'>
                 <NavItem>
                     <Nav.Link href='/'>Home</Nav.Link>

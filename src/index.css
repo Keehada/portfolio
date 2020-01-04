@@ -133,4 +133,11 @@ code {
   margin-left: 3%;
 }
 
+#twitch-card{
+  max-width: 20%;
+  margin-left: 40%;
+}
 
+#twitch-card-pic{
+  background-color: black;
+}

@@ -16,7 +16,7 @@ function HomePage() {
                         <h3 align='center'>Hello, my name is <span id='blue-name'>Frank!</span> I am a guy from Texas that makes things with code &#128526;.</h3>
                         <h3 align='center'>I graduated from <span id='sam'>Sam Houston State Univesity</span> with a degree in Computer Science after 4 years.</h3>
                         <h3 align='center'>I hope you enjoy my projects <span role='img' aria-label='smiley'>🙂</span>.</h3>
-                        <h3 align='center'>Languages I've learned and used: </h3>
+                        <h3 align='center'>Languages I've used: </h3>
                         <img id='react-logo' src={require('../assets/React-logo.png')} alt='react logo'/>
                         <img id='python-logo' src={require('../assets/python-logo.png')} alt='python logo'/>
                         <img id='java-logo' src={require('../assets/Java-logo.png')} alt='java logo'/>
