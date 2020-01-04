@@ -1,85 +1,75 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 .nav-text {
-  color: grey !important;
-  font-weight: 500;
+	color: white !important;
+	font-weight: 400;
 }
 
-.home-image{
-  width: 100%;
-  height: 937px;
-  opacity: .9;
+.nav-text:active {
+	color: black !important;
 }
 
-/* h1{
-  position: absolute;
-  top: 450px;
-  left: 41%;
-  color: white;
-  font-family: Poppins;
-} */
+.home-image {
+	width: 100%;
+	height: 937px;
+	opacity: .9;
+}
 
 .my_pic {
-  position: absolute;
-  top: 240px;
-  left: 220px;
-  max-width: 20%;
-  height: auto;
+	position: absolute;
+	top: 240px;
+	left: 220px;
+	max-width: 20%;
+	height: auto;
 }
 
 .jumbo {
-  background: url('./assets/singularity.png');
+	background: url('./assets/singularity.png');
+	opacity: 90%;
+	border-radius: 0 !important;
 }
 
-.overlay{
-  background-color: #000;
+.overlay {
+	background-color: #000;
 }
 
-#jumbo-text{
-  color: white;
+#jumbo-text1 {
+	color: white;
+	padding-top: 4%;
 }
 
-#my-pic{
-  display: block;
-  max-width: 25%;
-  margin-left: 2px;
-  margin-right: auto;
-  margin-top: 10px;
+#jumbo-text2 {
+	color: white;
 }
 
-#about-me{
-  text-align: center;
-  margin-top: 0px;
+#my-pic {
+	display: block;
+	max-width: 25%;
+	margin-left: 2px;
+	margin-right: auto;
+	margin-top: 10px;
 }
 
-.wrapper
-{
+#about-me {
+	text-align: center;
+	margin-top: 0px;
+}
+
+.wrapper {
 	padding-bottom: 20px;
 }
 
-.divider
-{
+.divider {
 	position: relative;
 	margin-top: 15px;
 	height: 1px;
 }
 
-.div-transparent:before
-{
+.div-transparent:before {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -87,57 +77,57 @@ code {
 	right: 5%;
 	width: 90%;
 	height: 1px;
-	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+	background-image: linear-gradient(to right, transparent, rgb(48, 49, 51), transparent);
 }
 
-#sam{
-  color: orange;
+#sam {
+	color: orange;
 }
 
-#blue-name{
-  color: navy;
+#blue-name {
+	color: navy;
 }
 
-#about-text{
-  display: block;
+#about-text {
+	display: block;
 }
 
-#react-logo{
-  max-width: 13%;
-  max-height: 10%;
+#react-logo {
+	max-width: 13%;
+	max-height: 10%;
 }
 
-#python-logo{
-  max-width: 8%;
-  margin-left: 3%;
-  max-height: 10%;
+#python-logo {
+	max-width: 8%;
+	margin-left: 3%;
+	max-height: 10%;
 }
 
-#java-logo{
-  max-width: 6%;
-  margin-left: 3%;
+#java-logo {
+	max-width: 6%;
+	margin-left: 3%;
 }
 
-#html-logo{
-  max-width: 10%;
-  margin-left: 3%;
+#html-logo {
+	max-width: 10%;
+	margin-left: 3%;
 }
 
-#css-logo{
-  max-width: 7%;
-  margin-left: 3%;
+#css-logo {
+	max-width: 7%;
+	margin-left: 3%;
 }
 
-#js-logo{
-  max-width: 10%;
-  margin-left: 3%;
+#js-logo {
+	max-width: 10%;
+	margin-left: 3%;
 }
 
-#twitch-card{
-  max-width: 20%;
-  margin-left: 40%;
+#twitch-card {
+	max-width: 20%;
+	margin-left: 40%;
 }
 
-#twitch-card-pic{
-  background-color: black;
+#twitch-card-pic {
+	background-color: black;
 }

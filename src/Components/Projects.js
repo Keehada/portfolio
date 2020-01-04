@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
 
 function Projects() {
 	return (
@@ -7,8 +6,6 @@ function Projects() {
 			<h1 align="center" className="title">
 				Projects
 			</h1>
-			{/*             <div className='row'>
-                <div className='col-3 mt-5'> */}
 			<div id="twitch-card" className="card">
 				<a href="https://twitch.tv">
 					<img
@@ -26,8 +23,6 @@ function Projects() {
 				</div>
 			</div>
 		</div>
-		/*             </div>
-        </div> */
 	);
 }
 
