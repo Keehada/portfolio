@@ -11,6 +11,27 @@ function HomePage() {
 						<div className="divider div-transparent" />
 					</div>
 					<img align="right" id="my-pic" src={require('../assets/FQPic.jpg')} alt="My Pic" />
+					<a href="https://twitter.com/keehada" target="_blank" rel="noopener noreferrer">
+						<img
+							id="twitter-icon"
+							src={require('../assets/Twitter_Social_Icon_Circle_Color.png')}
+							alt="twitter icon"
+						/>
+					</a>
+					<a href="https://instagram.com/keehada" target="_blank" rel="noopener noreferrer">
+						<img
+							id="instagram-icon"
+							src={require('../assets/Instagram_AppIcon_Aug2017.png')}
+							alt="instagram icon"
+						/>
+					</a>
+					<a href="https://www.linkedin.com/in/frank-quijada-a617b9194/" target="_blank" rel="noopener noreferrer">
+						<img
+							id="linkedin-icon"
+							src={require('../assets/LI-In-Bug.png')}
+							alt="linkedin icon"
+						/>
+					</a>
 					<div>
 						<h3 id="about-text" align="center">
 							Hello, my name is <span id="blue-name">Frank</span>! I am a guy from Texas that makes things

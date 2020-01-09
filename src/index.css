@@ -41,8 +41,30 @@ code {
 	height: auto;
 }
 
+#twitter-icon {
+	position: absolute;
+	width: 1.5%;
+	left: 66%;
+	bottom: 23%;
+}
+
+#instagram-icon {
+	position: absolute;
+	width: 1.5%;
+	left: 71%;
+	bottom: 23%;
+}
+
+#linkedin-icon {
+	position: absolute;
+	width: 1.5%;
+	left: 76%;
+	bottom: 23%;
+}
+
 .jumbo {
-	background: url('./assets/stars.gif');
+	background-image: url('./assets/neat-thing.gif');
+	background-position: center;
 	opacity: 90%;
 	border-radius: 0 !important;
 }

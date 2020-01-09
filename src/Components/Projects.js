@@ -3,6 +3,7 @@ import React from 'react';
 function Projects() {
 	return (
 		<div className="body">
+			{' '}
 			<h3 align="center" id="projects">
 				Projects
 			</h3>
