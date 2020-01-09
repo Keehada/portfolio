@@ -11,12 +11,14 @@ import 'shards-ui/dist/css/shards.min.css';
 
 function App() {
 	return (
-		<Router>
-			<Header />
-			<Jumbotron />
-			<Route exact path="/" component={HomePage} />
-			<Route path="/Projects" component={Projects} />
-		</Router>
+		<div className="body">
+			<Router>
+				<Header />
+				<Jumbotron />
+				<Route exact path="/" component={HomePage} />
+				<Route path="/Projects" component={Projects} />
+			</Router>
+		</div>
 	);
 }
 

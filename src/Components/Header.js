@@ -1,20 +1,20 @@
 import React from 'react';
 import { Navbar, NavItem } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Header() {
 	return (
 		<Navbar fixed="top" collapseOnSelect expand="lg" variant="dark">
 			<Navbar.Brand href="/">FQ</Navbar.Brand>
 			<NavItem className="ml-auto px-4">
-				<Link className="nav-text" to="/">
+				<NavLink exact activeClassName="is-active" className="navbar-text" to="/">
 					Home
-				</Link>
+				</NavLink>
 			</NavItem>
 			<NavItem>
-				<Link className="nav-text" to="/Projects">
+				<NavLink activeClassName="is-active" className="navbar-text" to="/Projects">
 					Projects
-				</Link>
+				</NavLink>
 			</NavItem>
 		</Navbar>
 	);

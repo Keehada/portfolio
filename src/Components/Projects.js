@@ -3,15 +3,17 @@ import React from 'react';
 function Projects() {
 	return (
 		<div className="body">
-			<h1 align="center" className="title">
+			<h3 align="center" id="projects">
 				Projects
-			</h1>
+			</h3>
+			<div className="wrapper">
+				<div className="divider div-transparent" />
+			</div>
 			<div id="twitch-card" className="card">
 				<a href="https://twitch.tv">
 					<img
 						className="card-img-top"
-						id="twitch-card-pic"
-						src={require('../assets/twitch.png')}
+						src={require('../assets/twitch-logo.webp')}
 						alt="twitch logo"
 						href="https://twitch.tv/"
 					/>
