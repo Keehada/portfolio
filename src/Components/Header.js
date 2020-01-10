@@ -11,9 +11,14 @@ function Header() {
 					Home
 				</NavLink>
 			</NavItem>
-			<NavItem>
+			<NavItem className="px-2">
 				<NavLink activeClassName="is-active" className="navbar-text" to="/Projects">
 					Projects
+				</NavLink>
+			</NavItem>
+			<NavItem className="px-4">
+				<NavLink activeClassName="is-active" className="navbar-text" to="/Resume">
+					Resume
 				</NavLink>
 			</NavItem>
 		</Navbar>
