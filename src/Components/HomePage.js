@@ -6,7 +6,7 @@ function HomePage() {
 		<div className="body">
 			<Container>
 				<div>
-					<h3 id="about-me">About Me</h3>
+					<h3 id="page-title">About Me</h3>
 					<div className="wrapper">
 						<div className="divider div-transparent" />
 					</div>
@@ -25,29 +25,29 @@ function HomePage() {
 							alt="instagram icon"
 						/>
 					</a>
-					<a href="https://www.linkedin.com/in/frank-quijada-a617b9194/" target="_blank" rel="noopener noreferrer">
-						<img
-							id="linkedin-icon"
-							src={require('../assets/LI-In-Bug.png')}
-							alt="linkedin icon"
-						/>
+					<a
+						href="https://www.linkedin.com/in/frank-quijada-a617b9194/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<img id="linkedin-icon" src={require('../assets/LI-In-Bug.png')} alt="linkedin icon" />
 					</a>
 					<div>
-						<h3 id="about-text" align="center">
+						<h3 id="body-text" align="center">
 							Hello, my name is <span id="blue-name">Frank</span>! I am a guy from Texas that makes things
 							with code &#128526;.
 						</h3>
-						<h3 id="about-text" align="center">
+						<h3 id="body-text" align="center">
 							I graduated from <span id="sam">Sam Houston State Univesity</span> with a degree in Computer
 							Science.
 						</h3>
-						<h3 id="about-text" align="center">
+						<h3 id="body-text" align="center">
 							I hope you enjoy my projects {' '}
 							<span role="img" aria-label="smiley">
 								🙂
 							</span>.
 						</h3>
-						<h3 id="about-text" align="center">
+						<h3 id="body-text" align="center">
 							Languages I've used:{' '}
 						</h3>
 						<img id="react-logo" src={require('../assets/React-logo.png')} alt="react logo" />
