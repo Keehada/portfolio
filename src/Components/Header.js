@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom';
 
 function Header() {
 	return (
-		<Navbar fixed="top" collapseOnSelect expand="lg" variant="dark">
-			<Navbar.Brand href="/">FQ</Navbar.Brand>
+		<Navbar fixed="top" collapseOnSelect expand="md" variant="dark">
+			<Navbar.Brand className='brand' href="/">FQ</Navbar.Brand>
 			<NavItem className="ml-auto px-4">
 				<NavLink exact activeClassName="is-active" className="navbar-text" to="/">
 					Home

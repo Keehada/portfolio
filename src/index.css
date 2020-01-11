@@ -13,6 +13,10 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+.brand:hover{
+	color: rgb(255, 71, 46) !important;
+}
+
 .navbar-text {
 	font-family: 'Courier Prime', sans-serif;
 	color: white !important;
@@ -21,104 +25,58 @@ code {
 
 .navbar-text:hover {
 	text-decoration: none;
+	color: rgb(255, 71, 46) !important;
 }
 
 .is-active {
 	border-bottom: 2px solid white;
 }
 
-.home-image {
-	width: 100%;
-	height: 937px;
-	opacity: .9;
-}
-
-.my_pic {
-	position: absolute;
-	top: 240px;
-	left: 220px;
-	max-width: 20%;
-	height: auto;
-}
-
-#twitter-icon {
-	position: absolute;
-	width: 1.5%;
-	left: 66%;
-	bottom: 23%;
-}
-
-#instagram-icon {
-	position: absolute;
-	width: 1.5%;
-	left: 71%;
-	bottom: 23%;
-}
-
-#linkedin-icon {
-	position: absolute;
-	width: 1.5%;
-	left: 76%;
-	bottom: 23%;
-}
-
 .jumbo {
 	background-image: url('./assets/neat-thing.gif');
 	background-position: center;
-	opacity: 90%;
 	border-radius: 0 !important;
 }
 
-.overlay {
-	background-color: #000;
-}
-
-#jumbo-text1 {
+.jumbo h1 {
 	font-family: 'Source Code Pro', sans-serif;
 	color: white;
 	padding-top: 4%;
 }
 
-#jumbo-text2 {
+.jumbo h2 {
 	font-family: 'Source Code Pro', sans-serif;
 	color: white;
 }
 
-#my-pic {
-	display: block;
-	max-width: 25%;
-	margin-left: 2px;
-	margin-right: auto;
-	margin-top: 10px;
+.section-border{
+	max-width: 200px;
+	border-bottom: solid rgb(255, 71, 46);
+	margin-bottom: 20px;
 }
 
-#page-title {
+.section-title {
 	font-family: 'Source Code Pro', sans-serif;
-	text-align: center;
 	margin-top: 0px;
 	font-weight: 500;
 	color: white;
 }
 
-.wrapper {
-	padding-bottom: 20px;
+.section{
+	margin-bottom: 75px;
 }
 
-.divider {
-	position: relative;
-	margin-top: 15px;
-	height: 1px;
+.social-section img{
+	max-height: 50px;
+	margin-left: auto;
 }
 
-.div-transparent:before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 5%;
-	right: 5%;
-	width: 90%;
-	height: 1px;
-	background-image: linear-gradient(to right, transparent, rgb(209, 213, 219), transparent);
+.social-section a{
+	margin: auto auto;
+}
+
+.social-section a:hover{
+	text-decoration: none;
 }
 
 #sam {
@@ -135,38 +93,6 @@ code {
 	color: white;
 }
 
-#react-logo {
-	max-width: 13%;
-	max-height: 10%;
-}
-
-#python-logo {
-	max-width: 8%;
-	margin-left: 3%;
-	max-height: 10%;
-}
-
-#java-logo {
-	max-width: 6%;
-	margin-left: 3%;
-}
-
-#html-logo {
-	max-width: 10%;
-	margin-left: 3%;
-}
-
-#css-logo {
-	max-width: 7%;
-	margin-left: 3%;
-}
-
-#js-logo {
-	max-width: 10%;
-	margin-left: 3%;
-}
-
 #twitch-card {
 	max-width: 20%;
-	margin-left: 40%;
 }

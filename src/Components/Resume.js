@@ -11,7 +11,7 @@ function Resume() {
 				</div>
 				<h3 align="center" id="body-text">
 					CLICK {''}
-					<a href="https://bit.ly/2t7CpWD" target="_blank">
+					<a href="https://bit.ly/2t7CpWD" target="_blank" rel="noopener noreferrer">
 						HERE
 					</a>
 					{''} TO VIEW MY RESUME

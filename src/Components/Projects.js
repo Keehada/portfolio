@@ -5,27 +5,26 @@ function Projects() {
 	return (
 		<div className="body">
 			<Container>
-				<h3 align="center" id="page-title">
-					Projects
-				</h3>
-				<div className="wrapper">
-					<div className="divider div-transparent" />
+				<div className="section-border">
+					<h3 className="section-title">Projects</h3>
 				</div>
-				<div id="twitch-card" className="card">
-					<a href="https://twitch.tv">
-						<img
-							className="card-img-top"
-							src={require('../assets/twitch-logo.webp')}
-							alt="twitch logo"
-							href="https://twitch.tv/"
-						/>
-					</a>
-					<div className="card-body">
+				<div className="section"></div>
+					<div id="twitch-card" className="card">
 						<a href="https://twitch.tv">
-							<h5 className="card-title">Twitch Leaderboard</h5>
+							<img
+								className="card-img-top"
+								src={require('../assets/twitch-logo.webp')}
+								alt="twitch logo"
+								href="https://twitch.tv/"
+							/>
 						</a>
+						<div className="card-body">
+							<a href="https://twitch.tv">
+								<h5 className="card-title">Twitch Leaderboard</h5>
+							</a>
+						</div>
 					</div>
-				</div>
+				
 			</Container>
 		</div>
 	);
